@@ -1,12 +1,12 @@
-# Level 2 Task 1: House Price Prediction (Linear Regression)
+# Level 2 Task 2: Wine Quality Classification
 
 ## 📌 Overview
-This project builds an end-to-end regression pipeline to forecast residential property values using Ordinary Least Squares (OLS) alongside L1 (Lasso) and L2 (Ridge) regularization methods.
+This task develops a multi-model classification framework to predict wine quality grades based on physicochemical attributes.
 
-## 🛠️ Methodology & Modeling
-* **EDA & Feature Engineering:** Evaluated target distributions (Skewness: -0.0644, Kurtosis: -1.2025) and applied One-Hot Encoding to categorical variables (`Location`, `Condition`).
-* **Model Benchmarking:** Evaluated baseline OLS regression against Ridge and Lasso models to inspect coefficient shrinkage and mitigate multicollinearity.
-* **Diagnostics:** Plotted actual vs. predicted prices and residual distribution plots to check homoscedasticity assumptions.
+## ⚙️ Machine Learning Pipeline
+* **Target Engineering:** Binned continuous quality scores into a structured binary classification task ("Premium" vs. "Standard") to overcome heavy mid-tier class imbalance.
+* **Algorithms Evaluated:** Random Forest Classifier, Support Vector Classifier (SVC), and Stochastic Gradient Descent (SGD).
+* **Final Selection:** Selected **Random Forest Classifier** for achieving the best F1-Score balance and providing feature importance rankings for model interpretability.
 
 ## 📁 File Reference
-* `DhanushKini_Level2_task1.ipynb`
+* `DhanushKini_Level2_Task2.ipynb`
