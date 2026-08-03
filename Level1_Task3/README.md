@@ -11,3 +11,5 @@ This task transforms a degraded, raw, and systematically flawed cafe transaction
 
 ## 📁 File Reference
 * `DhanushKini_Level1_Task3.ipynb`
+* `dirty_cafe_sales.csv` - Raw, unclean dataset with missing values and formatting issues
+* `clean_cafe_sales.csv` - Final processed and sanitized dataset ready for analysis
