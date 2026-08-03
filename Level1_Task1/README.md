@@ -13,6 +13,4 @@ This task focuses on performing advanced descriptive, demographic, time-series, 
 
 
 * ## 📁 File Reference
-* `DhanushKini_Level1_Task3.ipynb` - Jupyter notebook containing the full data cleaning pipeline
-* `dirty_cafe_sales.csv` - Raw, unclean dataset with missing values and formatting issues
-* `clean_cafe_sales.csv` - Final processed and sanitized dataset ready for analysis
+* `DhanushKini_Level1_Task1.ipynb` 
