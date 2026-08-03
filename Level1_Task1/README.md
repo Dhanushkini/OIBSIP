@@ -11,5 +11,8 @@ This task focuses on performing advanced descriptive, demographic, time-series, 
 1. **Product Bundling:** Create strategic checkout bundles (e.g., matching $50 "Clothing" items with $25 "Beauty" attachments) to lift the Average Order Value (AOV).
 2. **Ad-Auction Optimization:** Reallocate core digital marketing capital to early October ahead of Black Friday/Cyber Monday price inflation.
 
-## 📁 File Reference
-* `DhanushKini_Level1_Task1.ipynb`
+
+* ## 📁 File Reference
+* `DhanushKini_Level1_Task3.ipynb` - Jupyter notebook containing the full data cleaning pipeline
+* `dirty_cafe_sales.csv` - Raw, unclean dataset with missing values and formatting issues
+* `clean_cafe_sales.csv` - Final processed and sanitized dataset ready for analysis
